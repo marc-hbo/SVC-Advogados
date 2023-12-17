@@ -1,0 +1,48 @@
+/* Reset de Estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos da Página Inicial */
+h1 {
+    color: #333;
+}
+/* Estilos do Menu */
+nav {
+    background-color: #d2b48c; /* bege */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* preto */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* dourado */
+}
+
+/* Rodapé */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
